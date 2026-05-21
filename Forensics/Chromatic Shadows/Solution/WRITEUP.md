@@ -1,5 +1,5 @@
 # Chromatic Shadows — Full Writeup
-### CTF Forensics · Easy · 100 pts
+### CTF Forensics · Easy-Medium
 
 ---
 
@@ -180,7 +180,7 @@ XOR_KEY   = 0x5A
 decrypted = bytes([b ^ XOR_KEY for b in raw_bytes])
 
 # Tìm flag
-idx = decrypted.find(b'CTF{')
+idx = decrypted.find(b'DWY_YK{')
 end = decrypted.find(b'}', idx)
 print(decrypted[idx:end+1].decode())
 ```
@@ -395,7 +395,7 @@ XOR_KEY   = 0x5A
 decrypted = bytes([b ^ XOR_KEY for b in raw_bytes])
 
 # Find flag
-idx = decrypted.find(b'CTF{')
+idx = decrypted.find(b'DWY_YK{')
 end = decrypted.find(b'}', idx)
 print(decrypted[idx:end+1].decode())
 ```
