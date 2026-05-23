@@ -1,5 +1,5 @@
 # Dead Revision — CTF Writeup
-## Office Document Forensics | Medium+
+## Office Document Forensics
 
 ---
 
@@ -55,12 +55,12 @@ extracted_doc/
 ├── docProps/
 │   ├── app.xml                ← Metadata ứng dụng
 │   ├── core.xml               ← Metadata tài liệu (tác giả, ngày...)
-│   └── custom.xml  ⚠️         ← Thuộc tính tùy chỉnh (ĐÁ QUAN TRỌNG)
+│   └── custom.xml  ⚠️         ← Thuộc tính tùy chỉnh (ĐÁNG NGHI!)
 └── word/
     ├── _rels/
     │   └── document.xml.rels
-    ├── comments.xml ⚠️         ← Bình luận (ĐÁ QUAN TRỌNG)
-    ├── document.xml ⚠️         ← Nội dung tài liệu (ĐÁ QUAN TRỌNG)
+    ├── comments.xml ⚠️         ← Bình luận (ĐÁNG NGHI!)
+    ├── document.xml ⚠️         ← Nội dung tài liệu (ĐÁNG NGHI!)
     ├── settings.xml
     └── styles.xml
 ```
