@@ -340,4 +340,3 @@ python3 solve.py message.txt
 
 ---
 
-*Challenge designed for educational purposes — DWY_YK CTF Team*
