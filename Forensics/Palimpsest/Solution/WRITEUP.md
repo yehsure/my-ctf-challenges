@@ -638,4 +638,3 @@ python3 solve.py redacted_report.pdf
 
 ---
 
-*"The history of a document is written in its bytes, not its pixels."*

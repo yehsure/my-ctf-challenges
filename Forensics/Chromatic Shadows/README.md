@@ -4,7 +4,7 @@
 |----------|--------------------|
 | Category | Forensics          |
 | Difficulty | Easy             |
-| Author   | yehsure                  |
+| Author   | yehsure            |
 
 ---
 

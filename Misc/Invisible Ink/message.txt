@@ -1,0 +1,21 @@
+Welcome ​‌​to ‌​​the ‌​​Secure ‌​​File ​‌‌Transfer ​​‌Protocol ‌​​challenge!
+
+This ‌​​archive ​‌​was ‌‌​recovered ‌​​from ‌​‌a ‌​​compromised ​​​internal ‌‌​server ​​‌during ​‌‌a ​‌‌recent
+security ​​​incident. ‌​​The ‌‌​attached ​​‌document ‌​​appears ‌​‌to ​​‌be ‌​​a ‌‌​routine ‌‌​status ‌‌‌report
+sent ‌​‌between ‌‌‌two ​‌​analysts. ​‌‌At ​​​first ‌‌​glance, ‌‌​nothing ‌​‌seems ​​‌suspicious ​​​about ​‌​it.
+
+However, ​‌‌our ​​‌forensics ‌​​team ‌‌​strongly ​‌​believes ​​‌that ‌‌‌a ​‌​secret ​‌​message ​​‌was
+embedded ‌​​somewhere ‌‌​inside ‌​‌this ‌​‌file ‌​​before ‌​​it ​‌​was ​​‌transmitted. ‌‌​The ‌‌​sender ‌​​was
+known ​​‌to ‌​​use ‌‌​unconventional ​‌methods ​​that ‌‌bypass ‌​standard ​‌detection ​​tools.
+
+Your ‌​task ​​is ​‌simple: ​​find ‌​the ​‌hidden ​‌flag ‌‌inside ‌​this ‌​file.
+
+Note ​‌from ​‌the ‌​forensics ​​team:
+ ​‌ ‌‌- ‌​The ‌​file ​‌looks ​​perfectly ‌‌normal ‌​when ​​opened ‌‌in ​​any ‌​text ​‌editor.
+ ​​ ‌‌- ​‌Standard ​​grep ‌‌and ​​strings ‌‌commands ​‌report ​​nothing ‌​unusual.
+ ‌​ ​​- ‌‌The ​‌file ​‌size, ​‌however, ‌​does ​‌not ​​match ​​the ‌‌visible ​​character ‌​count.
+ ​‌ ‌​- ​‌All ‌‌characters ​‌are ‌‌valid ‌​Unicode. ‌​Nothing ​‌was ‌​added ​​after ‌‌the ​‌last ‌​line.
+
+Good ‌​luck. ‌​You ​‌will ​​need ‌‌it.
+
+-- ‌​DFIR ​​Team, ‌‌Incident ‌​Response ​‌Division
