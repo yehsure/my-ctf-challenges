@@ -1,0 +1,72 @@
+Nov 15 00:12:03 webserver sshd[1102]: Accepted publickey for devops from 192.168.1.50 port 51200 ssh2: RSA SHA256:Kl7pQmN8xRvYtJzAbCdEfGhIjKlMnOpQrStUvWxYz0=
+Nov 15 00:12:03 webserver sshd[1102]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 15 00:12:05 webserver sshd[1102]: pam_unix(sshd:session): session closed for user devops
+Nov 15 01:00:01 webserver CRON[1201]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 15 01:00:01 webserver CRON[1201]: pam_unix(cron:session): session closed for user root
+Nov 15 01:22:47 webserver sshd[1334]: Invalid user testuser from 198.18.0.5 port 49821
+Nov 15 01:22:47 webserver sshd[1334]: Failed password for invalid user testuser from 198.18.0.5 port 49821 ssh2
+Nov 15 01:22:48 webserver sshd[1335]: Failed password for invalid user testuser from 198.18.0.5 port 49822 ssh2
+Nov 15 01:22:49 webserver sshd[1336]: error: maximum authentication attempts exceeded for invalid user testuser from 198.18.0.5 port 49823 ssh2
+Nov 15 01:22:49 webserver sshd[1336]: Disconnecting invalid user testuser 198.18.0.5 port 49823: Too many authentication failures
+Nov 15 01:45:11 webserver sshd[1421]: Accepted publickey for devops from 192.168.1.50 port 52341 ssh2: RSA SHA256:Kl7pQmN8xRvYtJzAbCdEfGhIjKlMnOpQrStUvWxYz0=
+Nov 15 01:45:11 webserver sshd[1421]: pam_unix(sshd:session): session opened for user devops by (uid=0)
+Nov 15 01:58:22 webserver sudo[1522]: devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Nov 15 02:00:00 webserver sshd[1421]: Disconnected from user devops 192.168.1.50 port 52341
+Nov 15 02:00:00 webserver sshd[1421]: pam_unix(sshd:session): session closed for user devops
+Nov 15 02:00:01 webserver CRON[1601]: pam_unix(cron:session): session opened for user backup_svc by (uid=1003)
+Nov 15 02:00:01 webserver CRON[1601]: pam_unix(cron:session): session closed for user backup_svc
+Nov 15 03:01:22 webserver sshd[2801]: Failed password for root from 185.220.101.47 port 44101 ssh2
+Nov 15 03:01:23 webserver sshd[2802]: Failed password for root from 185.220.101.47 port 44102 ssh2
+Nov 15 03:01:24 webserver sshd[2803]: Failed password for admin from 185.220.101.47 port 44103 ssh2
+Nov 15 03:01:24 webserver sshd[2804]: Failed password for admin from 185.220.101.47 port 44104 ssh2
+Nov 15 03:01:25 webserver sshd[2805]: Invalid user administrator from 185.220.101.47 port 44105
+Nov 15 03:01:25 webserver sshd[2805]: Failed password for invalid user administrator from 185.220.101.47 port 44105 ssh2
+Nov 15 03:01:26 webserver sshd[2806]: Invalid user ubuntu from 185.220.101.47 port 44106
+Nov 15 03:01:26 webserver sshd[2806]: Failed password for invalid user ubuntu from 185.220.101.47 port 44106 ssh2
+Nov 15 03:01:27 webserver sshd[2807]: Invalid user user from 185.220.101.47 port 44107
+Nov 15 03:01:27 webserver sshd[2807]: Failed password for invalid user user from 185.220.101.47 port 44107 ssh2
+Nov 15 03:01:28 webserver sshd[2808]: Invalid user deploy from 185.220.101.47 port 44108
+Nov 15 03:01:28 webserver sshd[2808]: Failed password for invalid user deploy from 185.220.101.47 port 44108 ssh2
+Nov 15 03:01:29 webserver sshd[2809]: Failed password for www-data from 185.220.101.47 port 44109 ssh2
+Nov 15 03:01:30 webserver sshd[2810]: Invalid user git from 185.220.101.47 port 44110
+Nov 15 03:01:30 webserver sshd[2810]: Failed password for invalid user git from 185.220.101.47 port 44110 ssh2
+Nov 15 03:01:31 webserver sshd[2811]: Invalid user ftp from 185.220.101.47 port 44111
+Nov 15 03:01:31 webserver sshd[2811]: Failed password for invalid user ftp from 185.220.101.47 port 44111 ssh2
+Nov 15 03:01:32 webserver sshd[2812]: Invalid user oracle from 185.220.101.47 port 44112
+Nov 15 03:01:32 webserver sshd[2812]: Failed password for invalid user oracle from 185.220.101.47 port 44112 ssh2
+Nov 15 03:01:33 webserver sshd[2813]: Invalid user postgres from 185.220.101.47 port 44113
+Nov 15 03:01:33 webserver sshd[2813]: Failed password for invalid user postgres from 185.220.101.47 port 44113 ssh2
+Nov 15 03:01:34 webserver sshd[2814]: Invalid user jenkins from 185.220.101.47 port 44114
+Nov 15 03:01:34 webserver sshd[2814]: Failed password for invalid user jenkins from 185.220.101.47 port 44114 ssh2
+Nov 15 03:01:35 webserver sshd[2815]: Invalid user dev from 185.220.101.47 port 44115
+Nov 15 03:01:35 webserver sshd[2815]: Failed password for invalid user dev from 185.220.101.47 port 44115 ssh2
+Nov 15 03:01:36 webserver sshd[2816]: Invalid user test from 185.220.101.47 port 44116
+Nov 15 03:01:36 webserver sshd[2816]: Failed password for invalid user test from 185.220.101.47 port 44116 ssh2
+Nov 15 03:01:37 webserver sshd[2817]: Failed password for devops from 185.220.101.47 port 44117 ssh2
+Nov 15 03:01:38 webserver sshd[2818]: Failed password for devops from 185.220.101.47 port 44118 ssh2
+Nov 15 03:01:39 webserver sshd[2819]: Failed password for devops from 185.220.101.47 port 44119 ssh2
+Nov 15 03:03:14 webserver sshd[2831]: Invalid user svc from 185.220.101.47 port 44131
+Nov 15 03:03:14 webserver sshd[2831]: Failed password for invalid user svc from 185.220.101.47 port 44131 ssh2
+Nov 15 03:03:15 webserver sshd[2832]: Invalid user webadmin from 185.220.101.47 port 44132
+Nov 15 03:03:15 webserver sshd[2832]: Failed password for invalid user webadmin from 185.220.101.47 port 44132 ssh2
+Nov 15 03:03:16 webserver sshd[2833]: Invalid user sysadmin from 185.220.101.47 port 44133
+Nov 15 03:03:16 webserver sshd[2833]: Failed password for invalid user sysadmin from 185.220.101.47 port 44133 ssh2
+Nov 15 03:05:41 webserver sshd[2851]: Failed password for backup_svc from 185.220.101.47 port 44151 ssh2
+Nov 15 03:05:55 webserver sshd[2852]: Failed password for backup_svc from 185.220.101.47 port 44152 ssh2
+Nov 15 03:06:08 webserver sshd[2853]: Failed password for backup_svc from 185.220.101.47 port 44153 ssh2
+Nov 15 03:06:22 webserver sshd[2854]: Failed password for backup_svc from 185.220.101.47 port 44154 ssh2
+Nov 15 03:06:35 webserver sshd[2855]: Failed password for backup_svc from 185.220.101.47 port 44155 ssh2
+Nov 15 03:06:49 webserver sshd[2856]: Failed password for backup_svc from 185.220.101.47 port 44156 ssh2
+Nov 15 03:07:02 webserver sshd[2857]: Failed password for backup_svc from 185.220.101.47 port 44157 ssh2
+Nov 15 03:07:16 webserver sshd[2858]: Failed password for backup_svc from 185.220.101.47 port 44158 ssh2
+Nov 15 03:07:29 webserver sshd[2859]: Failed password for backup_svc from 185.220.101.47 port 44159 ssh2
+Nov 15 03:07:43 webserver sshd[2860]: Failed password for backup_svc from 185.220.101.47 port 44160 ssh2
+Nov 15 03:07:57 webserver sshd[2861]: Failed password for backup_svc from 185.220.101.47 port 44161 ssh2
+Nov 15 03:08:10 webserver sshd[2862]: Failed password for backup_svc from 185.220.101.47 port 44162 ssh2
+Nov 15 03:08:44 webserver sshd[2863]: Accepted password for backup_svc from 185.220.101.47 port 44163 ssh2
+Nov 15 03:08:44 webserver sshd[2863]: pam_unix(sshd:session): session opened for user backup_svc by (uid=0)
+Nov 15 03:08:45 webserver sshd[2863]: pam_env(sshd:session): deprecated reading of user environment enabled
+Nov 15 03:09:01 webserver sudo[2871]: backup_svc : command not allowed ; TTY=pts/1 ; PWD=/home/backup_svc ; USER=root ; COMMAND=/bin/bash
+Nov 15 03:09:14 webserver sudo[2872]: backup_svc : TTY=pts/1 ; PWD=/home/backup_svc ; USER=root ; COMMAND=/usr/bin/python3 /home/backup_svc/.config/sync.py
+Nov 15 04:00:01 webserver CRON[3101]: pam_unix(cron:session): session opened for user backup_svc by (uid=0)
+Nov 15 04:00:01 webserver CRON[3101]: pam_unix(cron:session): session closed for user backup_svc
